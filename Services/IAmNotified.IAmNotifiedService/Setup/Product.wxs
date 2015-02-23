@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Name="Corley IAmNotified"
+           Id="*"
+           UpgradeCode="d0e5f8f4-7acd-4caa-bceb-9212a5b0df22"
+           Manufacturer="My Company"
+           Version="!(bind.FileVersion.IAmNotified.exe)"
+           Language="1033">
+    <Package InstallerVersion="200"
+             Compressed="yes" />
+    <Media Id="1"
+           Cabinet="media1.cab"
+           EmbedCab="yes" />
+    <Directory Id="TARGETDIR"
+               Name="SourceDir">
+      <Directory Id="INSTALLDIR"
+                 Name="PFiles">
+        <Directory Id="Corley"
+                   Name="Corley">
+          <Directory Id="IAmNotified"
+                     Name="IAmNotified">
+            <Component Id="Corley.IAmNotified"
+                       Guid="df9022c7-8219-46c5-9192-c1ce69e05294">
+              <File Id="IAmNotified.exe"
+                    Name="IAmNotified.exe"
+                    Source="..\IAmNotified\bin\Release\IAmNotified.exe"
+                    Vital="yes"
+                    KeyPath="yes"
+                    DiskId="1" />
+              <File Id="IAmNotified.exe.config"
+                    Name="IAmNotified.exe.config"
+                    Source="..\IAmNotified\bin\Release\IAmNotified.exe.config"
+                    Vital="yes"
+                    KeyPath="no"
+                    DiskId="1" />
+              <ServiceInstall Id="ServiceInstaller"
+                              Type="ownProcess"
+                              Vital="yes"
+                              Name="Corley:IAmNotified"
+                              DisplayName="Corley:IAmNotified"
+                              Description="My Product Description"
+                              Start="auto"
+                              Account="LocalSystem"
+                              ErrorControl="ignore"
+                              Interactive="no" />
+              <ServiceControl Id="StartService"
+                              Start="install"
+                              Stop="both"
+                              Remove="uninstall"
+                              Name="Corley:IAmNotified"
+                              Wait="yes" />
+            </Component>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Feature Id="ProductFeature"
+             Title="Corley:IAmNotified"
+             Level="1">
+      <ComponentRef Id="Corley.IAmNotified" />
+    </Feature>
+  </Product>
+</Wix>
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="Setup" Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="9b2f2d96-8d3d-4443-8a17-ee246afba8fb">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="Setup" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="Setup" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			--><!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. --><!--
+			--><!-- <Component Id="ProductComponent"> --><!--
+				--><!-- TODO: Insert files, registry keys, and other resources here. --><!--
+			--><!-- </Component> --><!--
+		</ComponentGroup>
+	</Fragment>
+</Wix>-->

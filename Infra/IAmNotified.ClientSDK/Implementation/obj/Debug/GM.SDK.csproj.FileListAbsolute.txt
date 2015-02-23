@@ -1,0 +1,7 @@
+D:\Projecten\Ilips\!MQ\GM.SDK\bin\Debug\GM.SDK.dll
+D:\Projecten\Ilips\!MQ\GM.SDK\bin\Debug\GM.SDK.pdb
+D:\Projecten\Ilips\!MQ\GM.SDK\bin\Debug\RabbitMQ.Client.dll
+D:\Projecten\Ilips\!MQ\GM.SDK\bin\Debug\RabbitMQ.Client.xml
+D:\Projecten\Ilips\!MQ\GM.SDK\obj\Debug\GM.SDK.csprojResolveAssemblyReference.cache
+D:\Projecten\Ilips\!MQ\GM.SDK\obj\Debug\GM.SDK.dll
+D:\Projecten\Ilips\!MQ\GM.SDK\obj\Debug\GM.SDK.pdb

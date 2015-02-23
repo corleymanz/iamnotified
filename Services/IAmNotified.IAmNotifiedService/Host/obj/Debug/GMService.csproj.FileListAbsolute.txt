@@ -1,0 +1,12 @@
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\bin\WcfService1.dll.config
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\bin\WcfService1.dll
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\bin\WcfService1.pdb
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\bin\Implementation.dll
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\bin\Schema.dll
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\bin\RabbitMQ.Client.dll
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\bin\Implementation.pdb
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\bin\Schema.pdb
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\bin\RabbitMQ.Client.xml
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\obj\Debug\GMService.csprojResolveAssemblyReference.cache
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\obj\Debug\WcfService1.dll
+D:\Projecten\Ilips\!MQ\GMService\WcfService1\obj\Debug\WcfService1.pdb
