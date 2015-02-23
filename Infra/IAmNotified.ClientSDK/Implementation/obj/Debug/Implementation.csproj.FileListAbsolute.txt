@@ -45,3 +45,17 @@ D:\Projecten\Ilips\!MQ\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\Rabb
 D:\Projecten\Ilips\!MQ\Infra\IAmNotified.ClientSDK\Implementation\obj\Debug\Implementation.csprojResolveAssemblyReference.cache
 D:\Projecten\Ilips\!MQ\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\IAmNotified.Schema.dll
 D:\Projecten\Ilips\!MQ\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\IAmNotified.Schema.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\IAmNotified.ClientSDK.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\IAmNotified.ClientSDK.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\Bender.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\Flexo.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\IAmNotified.Schema.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\RabbitMQ.Client.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\SimpleConfig.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\Bender.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\Flexo.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\IAmNotified.Schema.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\RabbitMQ.Client.xml
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\SimpleConfig.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\obj\Debug\IAmNotified.ClientSDK.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\obj\Debug\IAmNotified.ClientSDK.pdb

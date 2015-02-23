@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using Common.Implementation.Serialize;
+using IAmNotified.ClientSDK.Configuration;
 using IAmNotified.Schema;
-using RabbitMQ.Client;
 
 namespace IAmNotified.ClientSDK
 {
@@ -12,7 +11,18 @@ namespace IAmNotified.ClientSDK
     // mail naar alle afzenders als bcc
     public class MailNotifier
     {
-        private const String QueueName = "MailQueue";
+        private ISettings _settings;
+        public ISettings Settings
+        {
+            get
+            {
+                if (_settings == null)
+                {
+                    _settings = Configuration.Settings.Instance;
+                }
+                return _settings;
+            }
+        }
 
         private IQueueHelper _queueHelper;
         public IQueueHelper QueueHelper
@@ -21,7 +31,7 @@ namespace IAmNotified.ClientSDK
             {
                 if (_queueHelper == null)
                 {
-                    _queueHelper = new QueueHelper(QueueName);
+                    _queueHelper = new QueueHelper(Settings.MailQueue);
                     
                 }
                 return _queueHelper;
@@ -36,6 +46,8 @@ namespace IAmNotified.ClientSDK
                 , Subject = subject
                 , Tomail = new List<string>{to}
             };
+
+            Push(mailschema);
         }
 
         public void Push(MailSchema mailschema)
@@ -44,60 +56,5 @@ namespace IAmNotified.ClientSDK
 
             QueueHelper.Push(message);
         }
-    }
-
-    public class SmsNotifier
-    {
-        private const String QueueName = "SMSQueue";
-
-        private IQueueHelper _queueHelper;
-        public IQueueHelper QueueHelper
-        {
-            get
-            {
-                if (_queueHelper == null)
-                {
-                    _queueHelper = new QueueHelper(QueueName);
-                }
-                return _queueHelper;
-            }
-        }
-
-        public void Push()
-        {
-
-        }
-    }
-
-    public class QueueHelper : IQueueHelper
-    {
-        private readonly string _queueName;
-
-        public QueueHelper(string queueName)
-        {
-            _queueName = queueName;
-        }
-
-        public void Push(string message)
-        {
-            var rabbitmqHost = "localhost";
-
-            var factory = new ConnectionFactory() { HostName = rabbitmqHost };
-            using (var connection = factory.CreateConnection())
-            {
-                using (var channel = connection.CreateModel())
-                {
-                    channel.QueueDeclare(_queueName, false, false, false, null);
-                    var body = Encoding.UTF8.GetBytes(message);
-
-                    channel.BasicPublish("", _queueName, null, body);
-                }
-            }
-        }
-    }
-
-    public interface IQueueHelper
-    {
-        void Push(string message);
     }
 }

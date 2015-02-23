@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace IAmNotified.IAmNotifiedService.Implementation.Configuration
+namespace IAmNotified.ClientSDK.Configuration
 {
-    /// <summary>
-    /// Access Application settings
-    /// </summary>
-    public  class Settings : ISettings
+    public class Settings : ISettings
     {
         private static readonly Settings _instance = new Settings();
 
@@ -14,18 +15,14 @@ namespace IAmNotified.IAmNotifiedService.Implementation.Configuration
         {
             get { return _instance; }
         }
-        
+
         /// <summary>smtp server</summary>
-        public MailSetting Mail { get; private set; }
-
         public String MailQueue { get; private set; }
-
         public String RabbitmqServer { get; private set; }
 
         Settings()
         {
             var set = SimpleConfig.Configuration.Load<CustomSettings>();
-            Mail = set.MailSetting;
             MailQueue = set.MailQueue;
             RabbitmqServer = set.RabbitmqServer;
         }

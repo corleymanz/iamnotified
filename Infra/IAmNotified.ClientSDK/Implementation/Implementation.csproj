@@ -57,8 +57,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\CustomSettings.cs" />
+    <Compile Include="Configuration\ISettings.cs" />
+    <Compile Include="Configuration\Settings.cs" />
+    <Compile Include="IQueueHelper.cs" />
     <Compile Include="MailNotifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueHelper.cs" />
+    <Compile Include="SmsNotifier.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">

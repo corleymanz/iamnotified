@@ -6,7 +6,7 @@ namespace IAmNotified.IAmNotifiedService.TestConsole
     {
         static void Main(string[] args)
         {
-            Controller controller = new Controller();
+            var controller = new Controller();
             controller.Receive();
         }
     }

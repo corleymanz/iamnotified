@@ -3,6 +3,7 @@ using System.Text;
 using System.Threading.Tasks;
 using IAmNotified.Common.Log;
 using IAmNotified.IAmNotifiedService.Implementation.Handler;
+using Implementation.Configuration;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
@@ -38,8 +39,8 @@ namespace IAmNotified.IAmNotifiedService.Implementation
 
         public void Receive()
         {
-            var queueName = "MailQueue";
-            var rabbitmqHost = "localhost";
+            var queueName = Configuration.Settings.Instance.MailQueue;
+            var rabbitmqHost = Configuration.Settings.Instance.RabbitmqServer;
 
             var factory = new ConnectionFactory() {HostName = rabbitmqHost};
             using (var connection = factory.CreateConnection())
@@ -54,21 +55,26 @@ namespace IAmNotified.IAmNotifiedService.Implementation
                     while (true)
                     {
                         var ea = (BasicDeliverEventArgs) consumer.Queue.Dequeue();
-                        channel.BasicAck(ea.DeliveryTag, false);
                         try
                         {
                             var body = ea.Body;
                             var message = Encoding.UTF8.GetString(body);
                             // process async
                             Handler.Process(message);
+                            // accept message
+                            channel.BasicAck(ea.DeliveryTag, false);
                         }
                         catch (Exception ex)
                         {
+                            // reject deliveriry and requeue
+                            channel.BasicNack(ea.DeliveryTag, false, true);
+
                             string error = (ex.InnerException == null)
                                 ? ex.Message
                                 : ex.Message + Environment.NewLine + ex.InnerException.Message;
-                            
+
                             Log.Error(error);
+                            Log.Error("message requeued");
                         }
                     }
                 }
