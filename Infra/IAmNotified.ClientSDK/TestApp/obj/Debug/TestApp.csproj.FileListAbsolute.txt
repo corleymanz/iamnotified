@@ -63,7 +63,6 @@ C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bi
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\IAmNotified.ClientSDK.dll
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\IAmNotified.Schema.dll
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\SimpleConfig.dll
-C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\Common.Implementation.dll
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\RabbitMQ.Client.dll
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\IAmNotified.ClientSDK.pdb
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\Bender.pdb
@@ -72,3 +71,10 @@ C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bi
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\SimpleConfig.pdb
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\RabbitMQ.Client.xml
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\NLog.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\IAmNotified.Common.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\Jil.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\Sigil.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\IAmNotified.Common.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\Jil.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\TestApp\bin\Debug\Sigil.pdb

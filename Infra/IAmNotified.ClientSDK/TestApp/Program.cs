@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using IAmNotified.Schema;
+using System.Diagnostics;
+using System.Linq;
+using IAmNotified.ClientSDK.Notification;
+using S = IAmNotified.Schema;
 
 namespace IAmNotified.ClientSDK.TestApp
 {
@@ -8,24 +11,36 @@ namespace IAmNotified.ClientSDK.TestApp
     {
         static void Main(string[] args)
         {
-            MailNotifier n = new MailNotifier();
-            n.Push( new MailSchema
+            SendMultipleNotificationsExample();
+
+            SendOneNotificationExample();
+        }
+
+        private static void SendMultipleNotificationsExample()
+        {
+            var ms = new S.MailSchema
             {
-                Tomail = new List<string> { "you@you.nl"}
-                , Priority = MailPriority.Low
+                Tomail = new List<string> { "you@you.nl" }
+                , Priority = S.MailPriority.Low
                 , Subject = "Onderwerp"
                 , Content = "hierbij een linkje <a href='www.google.com'> veel plezier ermee"
-            });
+            };
 
-            n.Push( new MailSchema
-            {
-                FromName = "program"
-                , FromMail = "program@test.nl"
-                , Tomail = new List<string> { "andme@love.nl"}
-                , Priority = MailPriority.Normal
-                , Subject = "Onderwerpie"
-                , Content = "hierbij een linkje <a href='www.google.com'> veel plezier ermee fsdklfkdsmfksdfksdlkfmslk mflksd" + Environment.NewLine + Environment.NewLine + "tweede regel"
-            });
+            // create queueService
+            IQueueService service = new QueueService();
+            service.Add("MailQueue", new MailNotifification(ms));
+            service.Add("MailQueue", new MailNotifification("onderwerp", "inhoud", "you@mij.nl"));
+            service.Add("klant1", new WebNotification("dit is een webbericht", "Type1"));
+
+            // make broker to send multiple notifications
+            IMessageBroker broker = new MessageBroker(service);
+            broker.SendNotifications();
+        }
+
+        private static void SendOneNotificationExample()
+        {
+            MessageBroker.SendNotification("testqueue", new WebNotification("jajaj", "typetje"));
+
         }
     }
 }

@@ -33,11 +33,11 @@
     <Reference Include="Bender">
       <HintPath>..\packages\Bender.3.0.1.0\lib\Bender.dll</HintPath>
     </Reference>
-    <Reference Include="Common.Implementation">
-      <HintPath>..\..\..\Binaries\Common\Release\Common.Implementation.dll</HintPath>
-    </Reference>
     <Reference Include="Flexo">
       <HintPath>..\packages\flexo.1.0.0.18\lib\Flexo.dll</HintPath>
+    </Reference>
+    <Reference Include="IAmNotified.Common">
+      <HintPath>..\..\..\Binaries\IAmNotified.Common\Debug\IAmNotified.Common.dll</HintPath>
     </Reference>
     <Reference Include="IAmNotified.Schema">
       <HintPath>..\..\..\Binaries\IAmNotified.Schema\Debug\IAmNotified.Schema.dll</HintPath>
@@ -60,11 +60,16 @@
     <Compile Include="Configuration\CustomSettings.cs" />
     <Compile Include="Configuration\ISettings.cs" />
     <Compile Include="Configuration\Settings.cs" />
-    <Compile Include="IQueueHelper.cs" />
-    <Compile Include="MailNotifier.cs" />
+    <Compile Include="IMessageBroker.cs" />
+    <Compile Include="IQueueService.cs" />
+    <Compile Include="MessageBroker.cs" />
+    <Compile Include="Notification\INotification.cs" />
+    <Compile Include="Notification\MailNotifification.cs" />
+    <Compile Include="Notification\NotificationBase.cs" />
+    <Compile Include="Notification\SmsNotification.cs" />
+    <Compile Include="Notification\WebNotification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QueueHelper.cs" />
-    <Compile Include="SmsNotifier.cs" />
+    <Compile Include="QueueService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">

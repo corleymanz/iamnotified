@@ -5,3 +5,16 @@ D:\Projecten\Ilips\!MQ\Infra\Common\Implementation\bin\Debug\Common.Implementati
 D:\Projecten\Ilips\!MQ\Infra\Common\Implementation\bin\Debug\Common.Implementation.pdb
 D:\Projecten\Ilips\!MQ\Infra\Common\Implementation\obj\Debug\Common.Implementation.dll
 D:\Projecten\Ilips\!MQ\Infra\Common\Implementation\obj\Debug\Common.Implementation.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\NLog.config
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\IAmNotified.Common.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\IAmNotified.Common.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\Jil.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\NLog.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\Sigil.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\Jil.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\Jil.xml
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\NLog.xml
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\Sigil.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Debug\Sigil.xml
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\obj\Debug\IAmNotified.Common.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\obj\Debug\IAmNotified.Common.pdb

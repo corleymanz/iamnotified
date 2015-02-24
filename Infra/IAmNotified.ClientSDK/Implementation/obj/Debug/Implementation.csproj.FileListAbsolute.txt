@@ -59,3 +59,11 @@ C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementa
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\SimpleConfig.pdb
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\obj\Debug\IAmNotified.ClientSDK.dll
 C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\obj\Debug\IAmNotified.ClientSDK.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\IAmNotified.Common.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\NLog.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\Jil.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\Sigil.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\IAmNotified.Common.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\Jil.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\bin\Debug\Sigil.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.ClientSDK\Implementation\obj\Debug\Implementation.csprojResolveAssemblyReference.cache

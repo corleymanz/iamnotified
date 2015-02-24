@@ -26,3 +26,17 @@ D:\Projecten\Ilips\!MQ\Infra\IAmNotified.Common\Implementation\bin\Release\Sigil
 D:\Projecten\Ilips\!MQ\Infra\IAmNotified.Common\Implementation\obj\Release\Implementation.csprojResolveAssemblyReference.cache
 D:\Projecten\Ilips\!MQ\Infra\IAmNotified.Common\Implementation\obj\Release\IAmNotified.Common.dll
 D:\Projecten\Ilips\!MQ\Infra\IAmNotified.Common\Implementation\obj\Release\IAmNotified.Common.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\NLog.config
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\IAmNotified.Common.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\IAmNotified.Common.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\Jil.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\NLog.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\Sigil.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\Jil.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\Jil.xml
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\NLog.xml
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\Sigil.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\bin\Release\Sigil.xml
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\obj\Release\Implementation.csprojResolveAssemblyReference.cache
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\obj\Release\IAmNotified.Common.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Common\Implementation\obj\Release\IAmNotified.Common.pdb

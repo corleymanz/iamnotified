@@ -6,3 +6,8 @@ D:\Projecten\Ilips\!MQ\Infra\IAmNotified.Schema\Implementation\bin\Debug\IAmNoti
 D:\Projecten\Ilips\!MQ\Infra\IAmNotified.Schema\Implementation\bin\Debug\IAmNotified.Schema.pdb
 D:\Projecten\Ilips\!MQ\Infra\IAmNotified.Schema\Implementation\obj\Debug\IAmNotified.Schema.dll
 D:\Projecten\Ilips\!MQ\Infra\IAmNotified.Schema\Implementation\obj\Debug\IAmNotified.Schema.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Schema\Implementation\bin\Debug\IAmNotified.Schema.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Schema\Implementation\bin\Debug\IAmNotified.Schema.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Schema\Implementation\obj\Debug\IAmNotified.Schema.dll
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Schema\Implementation\obj\Debug\IAmNotified.Schema.pdb
+C:\Users\dwessel\Source\Repos\iamnotified\Infra\IAmNotified.Schema\Implementation\obj\Debug\Implementation.csprojResolveAssemblyReference.cache
